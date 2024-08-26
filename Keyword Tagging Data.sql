@@ -48,3 +48,6 @@ ON camp_lst.marketing_campaign_id = keyword_lst.marketing_campaign_id
 WHERE 
   keyword_lst.marketing_campaign_id IN (camp_lst.marketing_campaign_id)
   AND keyword_lst.is_deleted = false;
+-------------Top categories for a keywords----------
+s3://os-search-relevancy-data/prod/keyword_category_data_v2_10008513.csv
+
